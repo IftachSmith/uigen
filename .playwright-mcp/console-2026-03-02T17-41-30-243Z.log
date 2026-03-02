@@ -1,2 +1,24 @@
 [   16622ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
 [   17529ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[ 2644536ms] [ERROR] ./package.json:35:1
+Error parsing package.json file
+  33 |     "jose": "^6.0.11",
+  34 |     "lucide-react": "^0.517.0",
+> 35 | <<<<<<< HEAD
+     | ^
+  36 |     "next": "^15.5.12",
+  37 | =======
+  38 |     "next": "15.3.3",
+
+package.json is not parseable: invalid JSON: key must be a string at line 35 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[ 2644574ms] [ERROR] ./package.json:35:1
+Error parsing package.json file
+  33 |     "jose": "^6.0.11",
+  34 |     "lucide-react": "^0.517.0",
+> 35 | <<<<<<< HEAD
+     | ^
+  36 |     "next": "^15.5.12",
+  37 | =======
+  38 |     "next": "15.3.3",
+
+package.json is not parseable: invalid JSON: key must be a string at line 35 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
